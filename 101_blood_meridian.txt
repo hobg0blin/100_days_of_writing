@@ -1,0 +1,11 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+ label="\nFig. 101. Blood Meridian"
+ violence[shape="rectangle", label="Violence, by longstanding practice,\n has been outsourced to the frontier."]
+ west[shape="rectangle", label="When there is no longer a frontier,\n we have no recourse but\n to direct that violence at ourselves."]
+violence->west
+ home->frontier[label="  violence"]
+ frontier -> home 
+ 
+ 
