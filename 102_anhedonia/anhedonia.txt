@@ -1,0 +1,14 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  node[shape="rectangle"]
+  edge[
+      arrowhead=none
+      ]
+  pain[label="feeling pain"]
+  better[label="is better than"]
+  nothing[label="feeling nothing"]
+  pain->better->nothing
+  label="\n Fig. 102. Anhedonia"
+}
+
