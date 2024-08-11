@@ -1,0 +1,16 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+    node[shape="rectangle"]
+    n1[label="it's hard to be"]
+    subgraph gg {
+        rank=same
+        n2[label="when you're"]
+        creative->n2->miserable
+        miserable->n2->creative
+    }
+    n1->creative
+    n1->miserable
+    
+    label="\nFig. 103. Hierarchy of needs."
+}
